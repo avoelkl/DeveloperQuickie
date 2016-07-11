@@ -1,0 +1,24 @@
+{
+  "name": "avoelkl/developerquickie",
+  "description": "Developer Quickie",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/avoelkl/DeveloperQuickie.git"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Avoelkl\\DeveloperQuickie\\": ""
+    }
+  }
+}
